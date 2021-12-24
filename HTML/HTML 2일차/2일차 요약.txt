@@ -1,1 +1,39 @@
+1. <img>는 이미지 태그. 속성부여 필요. 
+ex) <img src='https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7648.png'> (src는 source)
+*같은 위치 파일은 파일 이름만 적어주면 됨.
 
+2. width 속성을 활용하면 이미지 크기를 조정할 수 있음
+ex) <img src = 'url' width='100%'>
+
+3. 부모 태그는 자식 태그를 포함. 자식 태그는 포함됨.
+<p>
+    <a href="https://opentutorials.org">opentutorials</a>
+</p>
+* 부모 자식 관계가 고정된 태그
+<ul>
+    <li>1. a</li>
+    <li>2. b</li>
+</ul>
+<ul>은 목록을 구분. <li>는 목록화
+
+<ol>
+    <li>a</li>
+    <li>b</li>
+</ol>
+<ol>은순서가 있는 리스트(ordered list) <ul>은 순서가 없는 리스트(unordered list)
+
+4. <title>을 활용하면 웹페이지의 제목을 지정 가능. <title>...</title>
+
+5. 문자가 깨지지 않게 하기 위해 문자 해독 방식을 지정.
+ex) <meta charset='utf-8'>
+
+6. 본문은 body 태그. 본문 설명 태그는 head 태그.
+
+7. html 태그는 body 태그, head 태그를 감싼다. 문서 시작에는 <!doctype html> 표시.(이 문서는 html임을 표기)
+
+8. a(anchor), href(HyperText Reference)를 이용하면 링크 추가 가능.
+ex) <a href="https://www.w3.org/TR/html5/" target='_blank' title='html5 specification'> abc </a>
+*target='_blank'는 새창에서 열기. title은 링크가 담고 있는 내용.
+*<a> ... </a> 사이 문구에 링크가 걸림
+
+9. 각 링크를 연결해서 웹 사이트를 만들 수 있다.
