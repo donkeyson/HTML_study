@@ -1,0 +1,29 @@
+p {
+  color: red;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+html {
+  background-color: #00539F;
+}
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+h1 {
+  margin: 0; #마진 공간 초기화
+  padding: 20px 0; #상단과 하단 20px로 설정
+  color: #00539F #검정색
+  text-shadow: 3px 3px 1px black; #수평 오프셋, 수직 오프셋, 흐림 반경, 색상
+}
