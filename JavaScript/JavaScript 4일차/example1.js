@@ -29,3 +29,20 @@ if (x == y) {
 } else { //x > y인 경우
   document.write('x가 y보다 큽니다.');
 }
+
+//switch문 활용, 가독성이 더 좋다.
+var x = 10;
+switch (typeof x) {
+  case 'number':
+    document.write('변수 x의 타입은 숫자입니다.');
+    break;
+  case 'string':
+    document.write('변수 x의 타입은 문자열입니다.');
+    break;
+  case 'object':
+    document.write('변수 x의 타입은 객체입니다.');
+    break;
+  default:
+    document.write('변수 x의 타입을 모르겠다.');
+    break;
+}
