@@ -1,0 +1,5 @@
+p {
+  border : 2px solid powderblue; <!-- 경계 설정. 2px 두께. solid(실선). 색깔.
+  padding: 30px; <!-- 텍스트와 경계 사이의 스페이스 -->
+  margin: 50px; <!-- 경계와 경계 사이의 스페이스 -->
+}
