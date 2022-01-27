@@ -1,0 +1,9 @@
+table, th, td { <!-- table  생략 가능 -->
+  border: 1px solid black; <!-- border 스타일 변경 가능 -->
+  border-collapse: collapse; <!-- 줄 사이에 간격 없어짐 -->
+  border-radius: 10px; <!-- Round Table Borders -->
+}
+th, td {
+  background-color: #96D4D4;
+  border-color: #96D4D4;
+}
