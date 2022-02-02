@@ -2,3 +2,12 @@
   <label for="birthday">Birthday:</label>
   <input type="date" id="birthday" name="birthday">
 </form>
+
+<form>
+  <!-- max date까지 선택 가능-->
+  <label for="datemax">Enter a date before 1980-01-01:</label>
+  <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+  <!-- min date부터 선택 가능-->
+  <label for="datemin">Enter a date after 2000-01-01:</label>
+  <input type="date" id="datemin" name="datemin" min="2000-01-02">
+</form>
